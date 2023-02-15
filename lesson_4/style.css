@@ -1,0 +1,61 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.counter {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+button {
+    width: 40px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+}
+.counter__value {
+    border: none;
+    width: 30px;
+    height: 10px;
+    background-color: white;
+}
+.counter__btn {
+    width: 40px;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.main__block {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 20px;
+
+}
+.pos {
+padding-top: 20px;
+}
+.colors {
+    margin-top: 20px;
+}
+.color__red {
+    border: 1px solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 105px;
+}
+.color__yellow {
+    border: 1px solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 105px;
+}
+.color__green {
+    border: 1px solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 105px;
+}
