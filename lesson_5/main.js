@@ -20,8 +20,7 @@ const createTodo = () => {
 
         const edit = document.createElement('button')
         const Del = document.createElement('button')
-        Del.setAttribute('class','buttons')
-        edit.setAttribute('class','buttons')
+        
         edit.onclick = () => {
             let de = prompt ()
 
